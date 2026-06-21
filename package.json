@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "website Portfolio",
+  "homepage": "https://github.com/hamidrezaghavami/portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/hamidrezaghavami/portfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamidrezaghavami/portfolio.git"
+  },
+  "license": "MIT",
+  "author": "HamidRezaGhavami",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
