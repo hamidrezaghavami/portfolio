@@ -1,20 +1,18 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "website Portfolio",
-  "homepage": "https://github.com/hamidrezaghavami/portfolio#readme",
-  "bugs": {
-    "url": "https://github.com/hamidrezaghavami/portfolio/issues"
-  },
+  "description": "Minimalist Developer Portfolio",
+  "homepage": "https://hamidrezaghavami.github.io/portfolio",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hamidrezaghavami/portfolio.git"
   },
+  "bugs": {
+    "url": "https://github.com/hamidrezaghavami/portfolio/issues"
+  },
   "license": "MIT",
-  "author": "HamidRezaGhavami",
-  "type": "module",
-  "main": "index.js",
+  "author": "Hamid Reza Ghavami",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx serve ."
   }
 }
