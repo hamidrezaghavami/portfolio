@@ -288,6 +288,27 @@
             </div>
         </section>
 
+        <!-- PR 3: Open (PR #64341) -->
+         <div class="bg-neutral-950 border border-neutral-900/80 rounded-lg p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 hover:border-neutral-800 transition-all duration-300">
+            <div class="flex-1">
+                <div class="flex items-center gap-3 mb-3">
+                    <!-- GitHub Open PR Badge -->
+                     <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10px] font-mono bg-emerald-950/60 text-emerald-400 border border-emerald-800/50 font-medium">
+                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                        OPEN
+                    </span>
+                    <span class="text-[10px] font-mono text-neutral-500">nodejs/node #64341</span>
+                </div>
+                <h3 class="text-lg font-semibold text-white mb-2">
+                    <a href="https://github.com/nodejs/node/pull/64341" target="_blank" class="hover:underline inline-flex items-center gap-2">
+                        fs: accept all valid utf8 values in fast paths
+                        <svg class="w-3.5 h-3.5 text-neutral-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"/></svg>
+                    </a>
+                </h3>
+                <p class="text-xs text-neutral-400 leading-relaxed">Introduces an <code class="text-[11px] font-mono bg-neutral-900 px-1.5 py-0.5 rounded text-neutral-300">isUtf8Encoding</code> helper to ensure <code class="text-[11px] font-mono bg-neutral-900 px-1.5 py-0.5 rounded text-neutral-300">fs</code> methods utilize optimized C++ fast paths across all valid UTF-8 string casing variations.</p>
+            </div>
+        </div>
+
         <!-- TECHNOLOGY STACK SECTION -->
         <section class="py-16 border-t border-neutral-900/60 relative z-20">
             <div class="text-xs font-medium tracking-[0.15em] text-neutral-400 mb-8">Technology Stack</div>
